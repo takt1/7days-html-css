@@ -1,0 +1,29 @@
+.sobre-nos {
+    margin: 15vh;
+}
+
+.sobre-nos__descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre-nos span {
+    color: var(--bordo);
+    font-weight: 600;
+}
+
+.sobre-nos__titulo {
+    color: var(--preto);
+    font-size: 48px;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.sobre-nos__texto {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+    width: 50%;
+}

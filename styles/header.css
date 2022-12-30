@@ -1,0 +1,38 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin: 2em 9em;
+}
+
+.cabecalho__logo-nome {
+    font-size: 18px;
+    color: #3A404E;
+    margin-left: 8px;
+}
+
+.cabecalho__navegacao {
+    margin-right: auto;
+    margin-left: 10vw;
+}
+
+.navegacao__lista {
+    display: flex;
+}
+
+.navegacao__lista-item {
+    margin-right: 2em;
+}
+
+.navegacao__lista-link {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.botao-cadastro {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    margin-left: 2em;
+    background-color: var(--bordo);
+    border-radius: 8px;
+}
