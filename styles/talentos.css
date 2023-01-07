@@ -1,0 +1,62 @@
+.talentos {
+    margin: 20vh 0;
+}
+
+.talentos__descricao {
+    text-align: center;
+}
+
+.talentos__descricao span {
+    font-size: 14px;
+    color: var(--bordo);
+    background-color: var(--rosado);
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+.talentos__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.talentos__subtitulo {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: 4em;
+}
+
+.talentos__imagem {
+    width: 90%;
+}
+
+.talentos__empregos {
+    margin: 10vh 25vw;
+}
+
+.empregos__titulo {
+    font-size: 20px;
+    margin: 4em 0 2em 0;
+}
+
+.empregos__vaga {
+    margin: 1em 0;
+    padding: 2em;
+    border: 2px solid var(--cinza-claro);
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 5vw 10vw;
+    grid-column-gap: 1em;
+    grid-row-gap: 3em;
+}
+
+.vaga__titulo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 18px;
+}
+
+.vaga__especificacao {
+    color: var(--cinza);
+}

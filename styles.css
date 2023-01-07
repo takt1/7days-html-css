@@ -1,14 +1,24 @@
 @import url("styles/header.css");
 @import url("styles/sobre-nos.css");
+@import url("styles/metricas.css");
+@import url("styles/talentos.css");
+@import url("styles/depoimentos.css");
+@import url("styles/footer.css");
 
 :root {
     --cinza: #667085;
+    --cinza-claro: #EAECF0;
+    --cinza-rodape: #F9FAFB;    
     --bordo: #8E2424;
+    --bordo-ativo: #641301;
     --preto: #101828;
+    --rosado: rgba(142, 36, 36, 0.05);
+    --rosa-claro: rgba(196, 25, 25, 0.03);
 }
 
 body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    color: var(--preto);
 }

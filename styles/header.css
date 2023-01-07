@@ -28,11 +28,20 @@
     color: var(--cinza);
 }
 
-.botao-cadastro {
+.navegacao__lista-link:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.navegacao__lista-cadastro {
     text-decoration: none;
     color: white;
     padding: 1em;
     margin-left: 2em;
     background-color: var(--bordo);
     border-radius: 8px;
+}
+
+.navegacao__lista-cadastro:hover {
+    background-color: var(--bordo-ativo);
 }
